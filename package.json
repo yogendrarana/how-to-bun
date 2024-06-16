@@ -1,0 +1,17 @@
+{
+  "name": "how-to-bun",
+  "module": "src/server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/server.ts"
+  },
+  "dependencies": {
+    "hono": "^4.4.6"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
